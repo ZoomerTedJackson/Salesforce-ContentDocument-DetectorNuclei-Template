@@ -12,7 +12,3 @@ I wrote this up to automatically check for websites that have Salesforce Lightni
 
 <h2>Usage</h2>
 This should work fine with Nuclei, and a medium-severity item should be returned if successful. You may disagree with having a medium severity for something informational like this, but that's a personal choice because I always want to check out websites that hit on this check.
-
-```
-python ./main.py /path/to/file.json
-```
